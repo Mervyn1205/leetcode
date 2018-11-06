@@ -2,7 +2,7 @@ package p013
 
 import "testing"
 
-func TestIsPalindrome(t *testing.T) {
+func TestRomanToInt(t *testing.T) {
 	if romanToInt("III") != 3 {
 		t.Error("121 is palindrome")
 	}
