@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestmergeTwoListsRecursive(t *testing.T) {
+func TestMergeTwoListsRecursive(t *testing.T) {
 	n1 := newNode(1)
 	n1.Next = newNode(2)
 	n1.Next.Next = newNode(4)
